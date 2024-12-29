@@ -1,0 +1,67 @@
+.task-table {
+  width: 100%;
+  padding: 20px;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+
+    th,
+    td {
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+      color: #404040;
+    }
+
+    .owner-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .owner-img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 1px solid #ddd;
+      }
+    }
+
+    .view-btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 5px 10px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .status {
+      text-align: center;
+      padding: 5px 10px;
+      border-radius: 4px;
+      color: white;
+      font-size: 12px;
+
+      &.In-Review {
+        background-color: #3b78a3;
+      }
+      &.On-Track {
+        background-color: #cac000;
+      }
+      &.Delayed {
+        background-color: #f42e2e;
+      }
+      &.In-Revision {
+        background-color: #3e4b4f;
+      }
+    }
+  }
+}

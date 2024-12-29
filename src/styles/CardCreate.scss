@@ -1,0 +1,17 @@
+.CardSection1 {
+  width: 300px;
+  margin-left: 10px;
+  border-radius: 10px;
+  margin-top: -20px;
+
+  .CardSection1_imgAdd {
+    width: 100px;
+    display: flex;
+  }
+
+  .CardSection1_imgAdd img {
+    width: 350px;
+    height: 300px;
+    margin-top: -50px;
+  }
+}
