@@ -1,0 +1,12 @@
+.viewMoreSection {
+  display: flex;
+  justify-content: space-around;
+
+  text-decoration: dashed;
+  .viewMoreSection_h4 {
+    font-size: 13px;
+    color: #1677ff;
+    margin-top: -20px;
+    cursor: pointer;
+  }
+}

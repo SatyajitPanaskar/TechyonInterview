@@ -1,0 +1,59 @@
+.AllTask_section2 {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .AllTask_section2_div1 {
+    margin-left: 35px;
+    display: flex;
+  }
+  .AllTask_section2_div2_h4_1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2d446e;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .AllTask_section2_div2_h4_5 {
+    color: #2d446e;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    padding-left: 4px;
+    font-size: 18px;
+  }
+  .AllTask_section2_div2 {
+    display: flex;
+    margin-right: 45px;
+  }
+  .AllTask_section2_div2_h4_2 {
+    font-size: 20px;
+    border: 1px solid #ccc;
+    color: #cccccc;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px 7px 3px 5px;
+  }
+  .AllTask_section2_div2_h4_3 {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #cccccc;
+    background-color: #2d446e;
+    border-radius: 4px;
+    padding: 5px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .AllTask_section2_div2_h4_4 {
+    font-size: 20px;
+    padding-left: 10px;
+    color: #cccccc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .AllTask_section2_div2_h4_6 {
+    font-size: 20px;
+
+    color: #2d446e;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px 5px;
+  }
+}

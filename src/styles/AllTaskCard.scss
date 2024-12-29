@@ -1,0 +1,78 @@
+.AllTaskCardSection2 {
+  // background-color: red;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: -25px;
+  .allTaskCardSection2 {
+    margin: 15px;
+    display: flex;
+  }
+  .allTaskCardSection2_div1,
+  .allTaskCardSection2_div2,
+  .allTaskCardSection2_div3,
+  .allTaskCardSection2_div4 {
+    display: flex;
+    width: 450px;
+  }
+
+  .allTaskCardSection2_h6_1 {
+    color: #fff;
+    background-color: #4a90e2;
+    font-size: 15px;
+    width: 140px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+  }
+  .allTaskCardSection2_h6_1 span {
+    padding-left: 30px;
+    color: #e6e6e6;
+  }
+  .allTaskCardSection2_h6_2 {
+    color: #fff;
+    background-color: #3b78a3;
+    font-size: 15px;
+    width: 140px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+  }
+  .allTaskCardSection2_h6_2 span {
+    padding-left: 30px;
+    color: #e6e6e6;
+  }
+  .allTaskCardSection2_h6_3 {
+    color: #fff;
+    background-color: #3e4b4f;
+    font-size: 15px;
+    width: 140px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+  }
+  .allTaskCardSection2_h6_3 span {
+    padding-left: 45px;
+    color: #e6e6e6;
+  }
+  .allTaskCardSection2_h6_4 {
+    color: #fff;
+    background-color: #4caf50;
+    font-size: 15px;
+    width: 140px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-left: -10px;
+  }
+  .allTaskCardSection2_h6_4 span {
+    padding-left: 30px;
+    color: #e6e6e6;
+  }
+}
