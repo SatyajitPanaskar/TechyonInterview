@@ -13,12 +13,10 @@ const Dashboard = () => {
 
   return (
     <div className="section_1">
-      {!isTableListVisible && <ProjectBoard />}
-
       <div>
-        <ProjectCard toggleTableList={toggleTableList} />
-
         {isTableListVisible && <TableList1 />}
+        <ProjectCard toggleTableList={toggleTableList} />
+        {!isTableListVisible && <ProjectBoard />}
       </div>
     </div>
   );
