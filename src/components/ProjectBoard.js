@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/ProjectBoard.scss";
 import CardCreate from "./CardCreate";
 import ViewMore from "./Section2/ViewMore";
+import AllTask from "./Section2/AllTask";
 const ProjectBoard = () => {
   return (
     <div className="ProjectBoard">
@@ -29,6 +30,7 @@ const ProjectBoard = () => {
       </div>
       <CardCreate />
       <ViewMore />
+      <AllTask />
     </div>
   );
 };
