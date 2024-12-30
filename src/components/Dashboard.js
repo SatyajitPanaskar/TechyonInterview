@@ -1,18 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/Dashboard.scss";
-import { BsPlusLg } from "react-icons/bs";
+import TableList1 from "./Section3/TableList1";
 import ProjectCard from "./ProjectCard";
 import ProjectBoard from "./ProjectBoard";
-import AllTask from "./Section2/AllTask";
-import TableList1 from "./Section3/TableList1";
 
-const Dashboard = () => (
-  <div className="section_1">
-    <ProjectCard />
-    <ProjectBoard />
-    <AllTask />
-    <TableList1 />
-  </div>
-);
+const Dashboard = () => {
+  const [isTableListVisible, setIsTableListVisible] = useState(false);
+
+  const toggleTableList = () => {
+    setIsTableListVisible((prev) => !prev);
+  };
+
+  return (
+    <div className="section_1">
+      {!isTableListVisible && <ProjectBoard />}
+
+      <div>
+        <ProjectCard toggleTableList={toggleTableList} />
+
+        {isTableListVisible && <TableList1 />}
+      </div>
+    </div>
+  );
+};
 
 export default Dashboard;

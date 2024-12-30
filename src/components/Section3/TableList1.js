@@ -9,7 +9,7 @@ import ProjectAllTask from "./ProjectAllTask";
 const TableList1 = () => {
   return (
     <>
-      <div className="TableLsitSection3">
+      {/* <div className="TableLsitSection3">
         <div className="TableLsitSection3_div1">
           <h4 className="TableLsitSection3_div2_h4_1">All Projects </h4>
           <h4 className="TableLsitSection3_div2_h4_5">
@@ -28,7 +28,7 @@ const TableList1 = () => {
             <PiDotsThreeOutlineVerticalFill />
           </h4>
         </div>
-      </div>
+      </div> */}
       <ProjectTable />
       <div className="TableLsitSection3">
         <div className="TableLsitSection3_div1">
@@ -37,7 +37,7 @@ const TableList1 = () => {
             <TiArrowSortedDown />
           </h4>
         </div>
-        <div className="TableLsitSection3_div2">
+        {/* <div className="TableLsitSection3_div2">
           <h4 className="TableLsitSection3_div2_h4_2">
             <CgDisplayFullwidth />
           </h4>
@@ -48,7 +48,7 @@ const TableList1 = () => {
           <h4 className="TableLsitSection3_div2_h4_6">
             <PiDotsThreeOutlineVerticalFill />
           </h4>
-        </div>
+        </div> */}
       </div>
       <ProjectAllTask />
     </>
